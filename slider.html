@@ -1,0 +1,111 @@
+<style>
+  /* --- Slider Section --- */
+.slider-section {
+  padding: 0px 0;
+  background: #fff;
+}
+.swiper {
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
+  margin: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 16 / 9;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.7;
+}
+.swiper-pagination-bullet-active {
+  background: #a30909;
+  opacity: 1;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0px;
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+}
+@media (max-width: 768px) {
+  .swiper-slide {
+    aspect-ratio: 3 / 2;
+  }
+}
+@media (max-width: 480px) {
+  .swiper-slide {
+    aspect-ratio: 4 / 3;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 8px;
+  }
+}
+</style>
+<section class="swiper mySwiper slider-section">
+  <div class="swiper-wrapper">
+         <div class="swiper-slide">
+      <a href="https://hivetimes.co.za/" target="_blank" rel="noopener">
+        <img src="images-slider/hivetimes-slider.jpg" alt="Hive Times">
+      </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="https://n2auto.hivetimes.co.za/" target="_blank" rel="noopener">
+        <img src="images-slider/n2auto.jpg" alt="N2 auto Car Dealership">
+      </a>
+    </div>
+     <div class="swiper-slide">
+      <a href="http://doughandco.hivetimes.co.za/" target="_blank" rel="noopener">
+        <img src="images-slider/doughandco-long.jpg" alt="Dough and Co">
+      </a>
+    </div>
+       <div class="swiper-slide">
+      <a href="http://cupcakeplantation.hivetimes.co.za/" target="_blank" rel="noopener">
+        <img src="images-slider/cupcake-plantation-long.jpg" alt="Cupcake Plantation">
+      </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="https://hivetimes.co.za/Polaricecream.html" target="_blank" rel="noopener">
+        <img src="images-slider/polar-ice-cream-long.jpg" alt="Polar Ice Cream">
+      </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="https://hivetimes.co.za/broadway-page.html" target="_blank" rel="noopener">
+        <img src="images-slider/broadway-sweets-long.jpg" alt="Broadway Sweets">
+      </a>
+    </div>
+  
+    <div class="swiper-slide">
+      <a href="https://hivetimes.co.za/Sweet%20Mart.html" target="_blank" rel="noopener">
+        <img src="images-slider/sweet-mart-long.jpg" alt="Sweet Mart">
+      </a>
+    </div>
+      <div class="swiper-slide">
+      <a href="butcher-shop.html" target="_blank" rel="noopener">
+        <img src="images-slider/butcherblock-long.jpg" alt="Butcher shop">
+      </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="https://hivetimes.co.za/nothingfancy.html" target="_blank" rel="noopener">
+        <img src="images-slider/nothingfancy-long.jpg" alt="Nothing Fancy">
+      </a>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</section>
